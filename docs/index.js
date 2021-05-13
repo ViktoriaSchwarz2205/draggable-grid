@@ -34,7 +34,7 @@ draggableItemsContainer.addEventListener('drop', (e) => {
     swap(node1,node2);
 });
 }
-
+ 
 function swap(nodeA, nodeB) {
     const parentA = nodeA.parentNode;
     const siblingA = nodeA.nextSibling === nodeB ? nodeA : nodeA.nextSibling;
