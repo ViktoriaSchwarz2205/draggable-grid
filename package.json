@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "http-server docs -p 9000"  
+        "start": "http-server docs -p 8080"  
       },
       
     "devDependencies": {
